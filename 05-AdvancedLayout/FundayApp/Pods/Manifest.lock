@@ -1,0 +1,17 @@
+PODS:
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - Unbox (2.5.0)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView (= 4.0.0)
+  - Unbox
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+
+PODFILE CHECKSUM: a6a04b1959aaec53e23b5b374f8bc1fee2ed1832
+
+COCOAPODS: 1.2.1
