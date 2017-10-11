@@ -52,6 +52,10 @@ extension FutureFundayDetailsViewController: UITableViewDataSource {
                 cell.fundayDetailsLabel.text = _funday.details
                 cell.fundayDescriptionLabel.text = _funday.eventDescription
 
+                let dateFormatter = DateFormatter()
+                dateFormatter.dateFormat = "MM/dd/yyyy"
+                cell.dateAndPlaceLabel.text = dateFormatter.string(from: _funday.date)
+
 //                let point = MKPointAnnotation()
 //                point.coordinate = CLLocationCoordinate2DMake(_funday.place.latitude, _funday.place.longitude)
 //                point.title = _funday.place.name
