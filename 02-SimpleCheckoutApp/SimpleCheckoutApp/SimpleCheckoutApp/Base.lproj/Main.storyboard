@@ -72,7 +72,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Checkout"/>
                                 <connections>
-                                    <segue destination="0kZ-bT-fo3" kind="show" id="kW9-BZ-F7i"/>
+                                    <segue destination="0kZ-bT-fo3" kind="presentation" id="kW9-BZ-F7i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uB4-2j-TPe">
