@@ -14,14 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("1")
-        print(self.redView.frame)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("2")
-        print(self.redView.frame)
         // Called when the view is about to made visible. Default does nothing
 
 
@@ -29,7 +27,6 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("3")
-        print(self.redView.frame)
         // Called when the view has been fully transitioned onto the screen. Default does nothing
         //Layout configurations should be done here, now you have perfectly frame defined
 
