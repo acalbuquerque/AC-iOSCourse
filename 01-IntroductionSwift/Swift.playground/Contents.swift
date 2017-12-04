@@ -2,6 +2,26 @@
 
 import UIKit
 
+
+/*
+ Use let to make a constant and var to make a variable. The value of a constant doesn’t need to be known at compile time, but you must assign it a value exactly once. This means you can use constants to name a value that you determine once but use in many places.
+
+*/
+
+let implicitInteger = 70
+let implicitDouble = 70.0
+let explicitDouble: Double = 70
+
+let stringWithNumber = "Implicit integer values is \(implicitInteger)"
+
+
+let emptyArray: [String]
+let stringArray = ["Toni", "Jonas"]
+
+let emptyDictionary: [String: Any]
+let stringDictionary = ["Jonas": "iOS Dev", "Toni": "iOS Dev"]
+
+
 var str = "Hello, playground"
 
 var deposits = [450.0, 234.25, 300.0, 1200.0, 920.0, 23.0]
@@ -41,6 +61,13 @@ enum TransactionType {
     case deposit
     case withdraw
 }
+
+enum TransactionTypeWithValue: String {
+    case deposit = "D"
+    case withdraw = "W"
+}
+
+print(TransactionTypeWithValue.deposit.rawValue)
 
 let transactions:[(transaction:TransactionType, value: Double)] = [(.deposit, 200), (.withdraw, 100), (.deposit, 75.500000), (.deposit, 22.30), (.deposit, 10000.8)]
 
