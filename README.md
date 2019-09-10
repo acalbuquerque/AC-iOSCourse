@@ -66,4 +66,4 @@ All presentations, exercices and code will be here.
 
 > - **Day 6:**
 >> - Conclusions
->> - Questions about he course content
+>> - Questions about the course content
